@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckoutPage">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText10"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/checkout"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="16sp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="414dp"
+        android:layout_height="90dp"
+        android:background="@drawable/checkout"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="16sp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="133dp"
+        android:text="Perkiraan tiba : 2-3 Hari lagi"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="179dp"
+        android:text="Opsi Pengiriman"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="485dp"
+        android:text="Nama Barang"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="579dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="133dp"
+        android:text="Rp 15.000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="447dp"
+        android:text="HyperX Cloud 2 Wired"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="613dp"
+        android:text="Alamat Pengiriman"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="20dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="375dp"
+        android:layout_marginBottom="293dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="112dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="338dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/headphone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="34dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="368dp"
+        android:layout_marginBottom="482dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/lightbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="428dp"
+        android:text="Rp 1.100.000"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="349dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="528dp"
+        android:text="Andis Rent | Rental Motor Bandung.Cherry Field, Cluster Cressida No.99B, Lengkong, Kec. Bojongsoang, Kabupaten Bandung, Jawa Barat 40287  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="313dp"
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="218dp"
+        android:hint="Rp 10.000 x1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="329dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="251dp"
+        android:text="Memberikan perlindungan lebih untuk barang yang kamu beli tanpa di sengaja."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="292dp"
+        android:text="Proteksi Elektronik"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="298dp"
+        android:layout_marginBottom="148dp"
+        android:text="Exspress"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="383dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="337dp"
+        android:text="x1"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="670dp"
+        android:text="Checkout"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="664dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/backarrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="373dp"
+        android:layout_marginBottom="614dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="372dp"
+        android:layout_marginBottom="179dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/delivery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="368dp"
+        android:layout_marginBottom="88dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="414dp"
+        android:layout_height="55dp"
+        android:background="@drawable/checkout"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="16sp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="680dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/pesan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="35dp"
+        android:text="Total Pembayaran"
+        android:textColor="#228896"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="16dp"
+        android:text="Rp 1.127.000"
+        android:textColor="#228896"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="88dp"
+        android:text="Pesan"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="74dp"
+        android:hint="Silahkan tinggalkan pesan ke seller"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

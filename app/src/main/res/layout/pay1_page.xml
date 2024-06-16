@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pay1_Page">
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="757dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/backarrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="760dp"
+        android:text="Pilih Pembayaran"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bca"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="658dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView91"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="574dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bni"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="498dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/mandiri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="422dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bsi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView94"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="346dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bjb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView95"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="270dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView96"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="194dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/simb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="118dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/jaktim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText10"
+        android:layout_width="414dp"
+        android:layout_height="90dp"
+        android:background="@drawable/checkout"
+        android:fontFamily="@font/poppins"
+        android:paddingStart="16sp"
+        android:textColorHint="#8C8C8C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/imageView98"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="669dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="30dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/securepay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="744dp"
+        android:layout_marginEnd="26dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/nextpay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

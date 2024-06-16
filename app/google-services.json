@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160504530386",
+    "project_id": "tubeskelompok7-90401",
+    "storage_bucket": "tubeskelompok7-90401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160504530386:android:76d83451bfd2a669ac340b",
+        "android_client_info": {
+          "package_name": "com.example.epictradezone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz7nmt09hfaYjkGUi3kHYmQFVtCeXgmuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
